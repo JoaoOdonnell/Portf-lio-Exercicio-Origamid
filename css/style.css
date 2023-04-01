@@ -68,11 +68,11 @@
   display: grid;
   grid-template-columns: 500px 1fr;
   max-width: 1300px;
-  margin: 120px auto 0 auto;
+  margin: 120px auto 60px auto;
 }
 
 .text-exp {
-  max-width: 560px;
+  max-width: 530px;
   margin-bottom: 60px;
   font-size: 1.5rem;
 }
@@ -119,4 +119,120 @@
   background-color: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
+}
+
+.section-form {
+  background: #141414;
+}
+.container-formacao {
+  padding: 90px 70px;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.titulo-formacao h1 {
+  max-width: 390px;
+  font-size: 9rem;
+  color: #000000;
+  word-wrap: break-word;
+}
+
+.Descricao-form p {
+  font-size: 1.5rem;
+  color: #a3a3a3;
+  max-width: 530px;
+  margin-bottom: 60px;
+}
+
+.Descricao-form p b {
+  color: #ffffff;
+}
+
+.grid-formacoes {
+  display: grid;
+  grid-template-columns: repeat(3, 204px);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.blocos-form {
+  background: #000000;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.blocos-form::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -3px;
+}
+
+.blocos-form h4 {
+  color: #a3a3a3;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.blocos-form h3 {
+  color: #ffffff;
+  font-size: 1.125rem;
+  margin-bottom: 50px;
+}
+
+.blocos-form h6 {
+  color: #a3a3a3;
+}
+
+.cursos-int img {
+  margin-right: 12px;
+}
+
+.tittle-cursos {
+  color: #8f8f8f;
+}
+
+.cursos {
+  color: #ffffff;
+  margin-left: 42px;
+  margin-top: 12px;
+}
+
+.child-cur {
+  display: grid;
+  grid-template-columns: repeat(3, 210px);
+}
+
+.horas {
+  color: #8f8f8f;
+  grid-column: 3;
+  justify-self: end;
+}
+
+.idiomas {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.idiomas img {
+  margin-right: 12px;
+}
+
+.tittle-idiomas {
+  color: #8f8f8f;
+}
+
+.desc-id {
+  margin-left: 42px;
+  margin-top: 12px;
+}
+
+.nivel {
+  color: #8f8f8f;
 }
